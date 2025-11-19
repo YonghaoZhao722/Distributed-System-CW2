@@ -33,26 +33,12 @@ dist_sys_sql/
   - Connection timeout handling
   - Error logging
 
-**Example Request**:
-```json
-{
-  "task": "do something"
-}
-```
-
 ### 2. SQL Trigger (`SqlTriggerBinding`)
 - **Type**: SQL Trigger Binding
 - **Table**: `dbo.Tasks`
 - **Function**: Automatically fires when changes occur in the Tasks table
 - **Action**: Logs the changes (Id, Payload, Processed status)
 - **Use Case**: Processes tasks inserted by the HTTP trigger
-
-## Prerequisites
-
-- Python 3.10+
-- Azure Functions Core Tools
-- SQL Server database with `dbo.Tasks` table
-- Azure account (for deployment)
 
 ## Installation
 
@@ -93,16 +79,3 @@ python test_workflow.py
 ```bash
 python visualize_results.py
 ```
-
-## Deployment
-
-Deploy to Azure Functions using Azure Functions Core Tools:
-```bash
-func azure functionapp publish <function-app-name>
-```
-
-## Dependencies
-
-- `azure-functions`: Azure Functions Python SDK
-- `pymssql`: SQL Server database connector
-
