@@ -1,0 +1,10 @@
+Device Information
+============================================================
+Platform: macOS-15.6.1-arm64-arm-64bit
+Processor: arm
+CPU Count: 8
+CPU Frequency: 3504.00 MHz
+Memory Total: 16.00 GB
+Python Version: 3.10.19
+CPU Brand: Apple M2
+

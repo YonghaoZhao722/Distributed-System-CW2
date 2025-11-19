@@ -1,0 +1,12 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "changes",
+      "type": "sqlTrigger",
+      "direction": "in",
+      "tableName": "dbo.Tasks",
+      "connectionStringSetting": "SqlConnectionString"
+    }
+  ]
+}

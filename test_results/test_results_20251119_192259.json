@@ -1,0 +1,2377 @@
+{
+  "system_info": {
+    "cpu_count": 8,
+    "cpu_freq": {
+      "current": 3504,
+      "min": 600,
+      "max": 3504
+    },
+    "memory_total_gb": 16.0,
+    "platform": "darwin",
+    "python_version": "3.10.19 (main, Oct  9 2025, 15:25:03) [Clang 17.0.0 (clang-1700.0.13.3)]"
+  },
+  "timestamp": "20251119_192259",
+  "tests": [
+    {
+      "test_case": "functional",
+      "n": 5,
+      "successful": 5,
+      "results": [
+        {
+          "task_id": 1,
+          "status_code": 200,
+          "duration_ms": 1692.227840423584,
+          "success": true,
+          "response": "Task added: functional_test_20251119_192259_1",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:00.748745"
+        },
+        {
+          "task_id": 2,
+          "status_code": 200,
+          "duration_ms": 1614.5339012145996,
+          "success": true,
+          "response": "Task added: functional_test_20251119_192259_2",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:02.868462"
+        },
+        {
+          "task_id": 3,
+          "status_code": 200,
+          "duration_ms": 2035.5019569396973,
+          "success": true,
+          "response": "Task added: functional_test_20251119_192259_3",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:05.409193"
+        },
+        {
+          "task_id": 4,
+          "status_code": 200,
+          "duration_ms": 2241.474151611328,
+          "success": true,
+          "response": "Task added: functional_test_20251119_192259_4",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:08.154015"
+        },
+        {
+          "task_id": 5,
+          "status_code": 200,
+          "duration_ms": 1947.0570087432861,
+          "success": true,
+          "response": "Task added: functional_test_20251119_192259_5",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:10.606369"
+        }
+      ],
+      "timestamp": "2025-11-19T19:23:11.111676"
+    },
+    {
+      "test_case": "single_request",
+      "n": 1,
+      "results": [
+        {
+          "task_id": 1,
+          "status_code": 200,
+          "duration_ms": 1571.0232257843018,
+          "success": true,
+          "response": "Task added: test_single_20251119_192259",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:17.793264"
+        }
+      ],
+      "system_metrics": {
+        "cpu_before": 15.6,
+        "cpu_after": 12.3,
+        "memory_before": 73.6,
+        "memory_after": 73.8
+      },
+      "timestamp": "2025-11-19T19:23:17.896532"
+    },
+    {
+      "test_case": "medium_load",
+      "n": 50,
+      "total_duration_ms": 12744.01593208313,
+      "successful_requests": 50,
+      "failed_requests": 0,
+      "avg_duration_ms": 2176.1559867858887,
+      "results": [
+        {
+          "task_id": 5,
+          "status_code": 200,
+          "duration_ms": 1530.5910110473633,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_5",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:24.544298"
+        },
+        {
+          "task_id": 9,
+          "status_code": 200,
+          "duration_ms": 1574.6679306030273,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_9",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:24.593886"
+        },
+        {
+          "task_id": 6,
+          "status_code": 200,
+          "duration_ms": 1579.7269344329834,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_6",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:24.594008"
+        },
+        {
+          "task_id": 8,
+          "status_code": 200,
+          "duration_ms": 1820.2850818634033,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_8",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:24.837463"
+        },
+        {
+          "task_id": 1,
+          "status_code": 200,
+          "duration_ms": 1850.9938716888428,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_1",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:24.858731"
+        },
+        {
+          "task_id": 4,
+          "status_code": 200,
+          "duration_ms": 1849.7567176818848,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_4",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:24.862284"
+        },
+        {
+          "task_id": 7,
+          "status_code": 200,
+          "duration_ms": 1949.0728378295898,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_7",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:24.965507"
+        },
+        {
+          "task_id": 3,
+          "status_code": 200,
+          "duration_ms": 2010.3881359100342,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_3",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:25.020234"
+        },
+        {
+          "task_id": 10,
+          "status_code": 200,
+          "duration_ms": 2119.5101737976074,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_10",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:25.139723"
+        },
+        {
+          "task_id": 2,
+          "status_code": 200,
+          "duration_ms": 2305.5830001831055,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_2",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:25.314045"
+        },
+        {
+          "task_id": 15,
+          "status_code": 200,
+          "duration_ms": 1580.3427696228027,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_15",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:26.439161"
+        },
+        {
+          "task_id": 16,
+          "status_code": 200,
+          "duration_ms": 1603.0738353729248,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_16",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:26.465428"
+        },
+        {
+          "task_id": 13,
+          "status_code": 200,
+          "duration_ms": 1892.374038696289,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_13",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:26.486835"
+        },
+        {
+          "task_id": 12,
+          "status_code": 200,
+          "duration_ms": 1934.6559047698975,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_12",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:26.528858"
+        },
+        {
+          "task_id": 19,
+          "status_code": 200,
+          "duration_ms": 1878.6418437957764,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_19",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:27.018458"
+        },
+        {
+          "task_id": 14,
+          "status_code": 200,
+          "duration_ms": 2204.141855239868,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_14",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:27.041695"
+        },
+        {
+          "task_id": 20,
+          "status_code": 200,
+          "duration_ms": 1907.2139263153076,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_20",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:27.221341"
+        },
+        {
+          "task_id": 18,
+          "status_code": 200,
+          "duration_ms": 2201.5178203582764,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_18",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:27.221835"
+        },
+        {
+          "task_id": 17,
+          "status_code": 200,
+          "duration_ms": 2291.411876678467,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_17",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:27.256996"
+        },
+        {
+          "task_id": 21,
+          "status_code": 200,
+          "duration_ms": 1546.2849140167236,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_21",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:27.985651"
+        },
+        {
+          "task_id": 22,
+          "status_code": 200,
+          "duration_ms": 1822.9990005493164,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_22",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:28.288565"
+        },
+        {
+          "task_id": 24,
+          "status_code": 200,
+          "duration_ms": 2023.522138595581,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_24",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:28.552472"
+        },
+        {
+          "task_id": 26,
+          "status_code": 200,
+          "duration_ms": 1637.4928951263428,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_26",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:28.679273"
+        },
+        {
+          "task_id": 28,
+          "status_code": 200,
+          "duration_ms": 1589.392900466919,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_28",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:28.811694"
+        },
+        {
+          "task_id": 29,
+          "status_code": 200,
+          "duration_ms": 1575.6816864013672,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_29",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:28.832811"
+        },
+        {
+          "task_id": 25,
+          "status_code": 200,
+          "duration_ms": 1980.104923248291,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_25",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:28.998802"
+        },
+        {
+          "task_id": 23,
+          "status_code": 200,
+          "duration_ms": 2560.3740215301514,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_23",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:29.047311"
+        },
+        {
+          "task_id": 27,
+          "status_code": 200,
+          "duration_ms": 2097.975969314575,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_27",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:29.319975"
+        },
+        {
+          "task_id": 30,
+          "status_code": 200,
+          "duration_ms": 1521.6612815856934,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_30",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:29.507518"
+        },
+        {
+          "task_id": 31,
+          "status_code": 200,
+          "duration_ms": 1792.2120094299316,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_31",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:30.080967"
+        },
+        {
+          "task_id": 32,
+          "status_code": 200,
+          "duration_ms": 1631.6590309143066,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_32",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:30.184374"
+        },
+        {
+          "task_id": 34,
+          "status_code": 200,
+          "duration_ms": 1529.6947956085205,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_34",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:30.341509"
+        },
+        {
+          "task_id": 36,
+          "status_code": 200,
+          "duration_ms": 1844.2151546478271,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_36",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:30.843158"
+        },
+        {
+          "task_id": 33,
+          "status_code": 200,
+          "duration_ms": 2164.146900177002,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_33",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:30.843648"
+        },
+        {
+          "task_id": 38,
+          "status_code": 200,
+          "duration_ms": 1581.5651416778564,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_38",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:30.901768"
+        },
+        {
+          "task_id": 37,
+          "status_code": 200,
+          "duration_ms": 2496.8199729919434,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_37",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:31.544256"
+        },
+        {
+          "task_id": 40,
+          "status_code": 200,
+          "duration_ms": 1552.4647235870361,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_40",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:31.633644"
+        },
+        {
+          "task_id": 39,
+          "status_code": 200,
+          "duration_ms": 2216.642141342163,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_39",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:31.724309"
+        },
+        {
+          "task_id": 41,
+          "status_code": 200,
+          "duration_ms": 1595.771074295044,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_41",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:31.780256"
+        },
+        {
+          "task_id": 43,
+          "status_code": 200,
+          "duration_ms": 1547.605037689209,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_43",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:32.391422"
+        },
+        {
+          "task_id": 42,
+          "status_code": 200,
+          "duration_ms": 2139.7922039031982,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_42",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:32.481452"
+        },
+        {
+          "task_id": 44,
+          "status_code": 200,
+          "duration_ms": 1874.5849132537842,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_44",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:32.718742"
+        },
+        {
+          "task_id": 47,
+          "status_code": 200,
+          "duration_ms": 1532.271146774292,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_47",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:33.166030"
+        },
+        {
+          "task_id": 49,
+          "status_code": 200,
+          "duration_ms": 1581.6469192504883,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_49",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:33.361982"
+        },
+        {
+          "task_id": 45,
+          "status_code": 200,
+          "duration_ms": 2689.73970413208,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_45",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:33.591626"
+        },
+        {
+          "task_id": 48,
+          "status_code": 200,
+          "duration_ms": 2199.7029781341553,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_48",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:33.924227"
+        },
+        {
+          "task_id": 50,
+          "status_code": 200,
+          "duration_ms": 1548.2940673828125,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_50",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:33.939861"
+        },
+        {
+          "task_id": 46,
+          "status_code": 200,
+          "duration_ms": 3097.5542068481445,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_46",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:34.642018"
+        },
+        {
+          "task_id": 35,
+          "status_code": 200,
+          "duration_ms": 6545.722007751465,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_35",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:35.378630"
+        },
+        {
+          "task_id": 11,
+          "status_code": 200,
+          "duration_ms": 11206.255912780762,
+          "success": true,
+          "response": "Task added: test_medium_20251119_192259_11",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:35.750871"
+        }
+      ],
+      "system_metrics": {
+        "cpu_before": 0.0,
+        "cpu_after": 14.8,
+        "memory_before": 73.6,
+        "memory_after": 74.0
+      },
+      "timestamp": "2025-11-19T19:23:35.852044"
+    },
+    {
+      "test_case": "high_load",
+      "n": 200,
+      "total_duration_ms": 28405.00283241272,
+      "successful_requests": 200,
+      "failed_requests": 0,
+      "avg_duration_ms": 2450.105586051941,
+      "min_duration_ms": 1485.4426383972168,
+      "max_duration_ms": 23493.71099472046,
+      "results": [
+        {
+          "task_id": 18,
+          "status_code": 200,
+          "duration_ms": 1661.1950397491455,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_18",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:47.643420"
+        },
+        {
+          "task_id": 3,
+          "status_code": 200,
+          "duration_ms": 1739.5210266113281,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_3",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:47.699046"
+        },
+        {
+          "task_id": 17,
+          "status_code": 200,
+          "duration_ms": 1740.0867938995361,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_17",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:47.719796"
+        },
+        {
+          "task_id": 19,
+          "status_code": 200,
+          "duration_ms": 1773.6029624938965,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_19",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:47.757094"
+        },
+        {
+          "task_id": 4,
+          "status_code": 200,
+          "duration_ms": 1796.212911605835,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_4",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:47.758232"
+        },
+        {
+          "task_id": 8,
+          "status_code": 200,
+          "duration_ms": 1791.322946548462,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_8",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:47.759256"
+        },
+        {
+          "task_id": 5,
+          "status_code": 200,
+          "duration_ms": 1799.0961074829102,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_5",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:47.762492"
+        },
+        {
+          "task_id": 12,
+          "status_code": 200,
+          "duration_ms": 1805.311918258667,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_12",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:47.780320"
+        },
+        {
+          "task_id": 1,
+          "status_code": 200,
+          "duration_ms": 2040.1232242584229,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_1",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:47.998620"
+        },
+        {
+          "task_id": 10,
+          "status_code": 200,
+          "duration_ms": 2050.542116165161,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_10",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:48.023241"
+        },
+        {
+          "task_id": 14,
+          "status_code": 200,
+          "duration_ms": 2109.7357273101807,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_14",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:48.086717"
+        },
+        {
+          "task_id": 7,
+          "status_code": 200,
+          "duration_ms": 2230.3459644317627,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_7",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:48.197297"
+        },
+        {
+          "task_id": 2,
+          "status_code": 200,
+          "duration_ms": 2385.2450847625732,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_2",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:48.344352"
+        },
+        {
+          "task_id": 9,
+          "status_code": 200,
+          "duration_ms": 2376.396656036377,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_9",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:48.344844"
+        },
+        {
+          "task_id": 15,
+          "status_code": 200,
+          "duration_ms": 2505.613088607788,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_15",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:48.483705"
+        },
+        {
+          "task_id": 20,
+          "status_code": 200,
+          "duration_ms": 2697.9598999023438,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_20",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:48.681980"
+        },
+        {
+          "task_id": 11,
+          "status_code": 200,
+          "duration_ms": 2741.9090270996094,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_11",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:48.715291"
+        },
+        {
+          "task_id": 6,
+          "status_code": 200,
+          "duration_ms": 3043.342113494873,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_6",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:49.007645"
+        },
+        {
+          "task_id": 16,
+          "status_code": 200,
+          "duration_ms": 3066.4961338043213,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_16",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:49.045588"
+        },
+        {
+          "task_id": 26,
+          "status_code": 200,
+          "duration_ms": 1593.630313873291,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_26",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:49.352943"
+        },
+        {
+          "task_id": 28,
+          "status_code": 200,
+          "duration_ms": 1671.3521480560303,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_28",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:49.451745"
+        },
+        {
+          "task_id": 27,
+          "status_code": 200,
+          "duration_ms": 1735.3169918060303,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_27",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:49.497932"
+        },
+        {
+          "task_id": 13,
+          "status_code": 200,
+          "duration_ms": 3564.0151500701904,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_13",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:49.539934"
+        },
+        {
+          "task_id": 21,
+          "status_code": 200,
+          "duration_ms": 1950.0432014465332,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_21",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:49.593663"
+        },
+        {
+          "task_id": 30,
+          "status_code": 200,
+          "duration_ms": 1643.7408924102783,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_30",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:49.667097"
+        },
+        {
+          "task_id": 25,
+          "status_code": 200,
+          "duration_ms": 1989.5341396331787,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_25",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:49.747886"
+        },
+        {
+          "task_id": 31,
+          "status_code": 200,
+          "duration_ms": 1722.7330207824707,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_31",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:49.809584"
+        },
+        {
+          "task_id": 32,
+          "status_code": 200,
+          "duration_ms": 1668.6480045318604,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_32",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:49.866153"
+        },
+        {
+          "task_id": 23,
+          "status_code": 200,
+          "duration_ms": 2766.155958175659,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_23",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:50.486049"
+        },
+        {
+          "task_id": 35,
+          "status_code": 200,
+          "duration_ms": 2083.5719108581543,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_35",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:50.567483"
+        },
+        {
+          "task_id": 38,
+          "status_code": 200,
+          "duration_ms": 1720.6308841705322,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_38",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:50.728500"
+        },
+        {
+          "task_id": 36,
+          "status_code": 200,
+          "duration_ms": 2522.0320224761963,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_36",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:51.204208"
+        },
+        {
+          "task_id": 44,
+          "status_code": 200,
+          "duration_ms": 1790.5900478363037,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_44",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:51.384390"
+        },
+        {
+          "task_id": 45,
+          "status_code": 200,
+          "duration_ms": 1824.970006942749,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_45",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:51.492219"
+        },
+        {
+          "task_id": 41,
+          "status_code": 200,
+          "duration_ms": 2075.913906097412,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_41",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:51.527863"
+        },
+        {
+          "task_id": 37,
+          "status_code": 200,
+          "duration_ms": 2894.380807876587,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_37",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:51.609824"
+        },
+        {
+          "task_id": 42,
+          "status_code": 200,
+          "duration_ms": 2191.9758319854736,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_42",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:51.690105"
+        },
+        {
+          "task_id": 46,
+          "status_code": 200,
+          "duration_ms": 2147.1800804138184,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_46",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:51.895162"
+        },
+        {
+          "task_id": 40,
+          "status_code": 200,
+          "duration_ms": 2656.266927719116,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_40",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:52.009453"
+        },
+        {
+          "task_id": 48,
+          "status_code": 200,
+          "duration_ms": 2296.402931213379,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_48",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:52.162717"
+        },
+        {
+          "task_id": 34,
+          "status_code": 200,
+          "duration_ms": 3889.118432998657,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_34",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:52.234423"
+        },
+        {
+          "task_id": 49,
+          "status_code": 200,
+          "duration_ms": 1769.0730094909668,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_49",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:52.255307"
+        },
+        {
+          "task_id": 43,
+          "status_code": 200,
+          "duration_ms": 2719.967842102051,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_43",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:52.260047"
+        },
+        {
+          "task_id": 24,
+          "status_code": 200,
+          "duration_ms": 4651.999950408936,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_24",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:52.409159"
+        },
+        {
+          "task_id": 51,
+          "status_code": 200,
+          "duration_ms": 1808.5901737213135,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_51",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:52.537187"
+        },
+        {
+          "task_id": 47,
+          "status_code": 200,
+          "duration_ms": 2769.705057144165,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_47",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:52.579391"
+        },
+        {
+          "task_id": 50,
+          "status_code": 200,
+          "duration_ms": 2093.2531356811523,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_50",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:52.660827"
+        },
+        {
+          "task_id": 52,
+          "status_code": 200,
+          "duration_ms": 1793.863296508789,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_52",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:52.998142"
+        },
+        {
+          "task_id": 55,
+          "status_code": 200,
+          "duration_ms": 1691.0359859466553,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_55",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:53.218981"
+        },
+        {
+          "task_id": 56,
+          "status_code": 200,
+          "duration_ms": 1697.4079608917236,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_56",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:53.307334"
+        },
+        {
+          "task_id": 58,
+          "status_code": 200,
+          "duration_ms": 1802.1259307861328,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_58",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:53.697392"
+        },
+        {
+          "task_id": 33,
+          "status_code": 200,
+          "duration_ms": 5389.44411277771,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_33",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:53.734462"
+        },
+        {
+          "task_id": 54,
+          "status_code": 200,
+          "duration_ms": 2291.794776916504,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_54",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:53.784088"
+        },
+        {
+          "task_id": 59,
+          "status_code": 200,
+          "duration_ms": 1786.9670391082764,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_59",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:53.796487"
+        },
+        {
+          "task_id": 61,
+          "status_code": 200,
+          "duration_ms": 1670.8011627197266,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_61",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:53.905468"
+        },
+        {
+          "task_id": 60,
+          "status_code": 200,
+          "duration_ms": 1782.8872203826904,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_60",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:53.945715"
+        },
+        {
+          "task_id": 63,
+          "status_code": 200,
+          "duration_ms": 1701.155185699463,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_63",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:53.961296"
+        },
+        {
+          "task_id": 29,
+          "status_code": 200,
+          "duration_ms": 6054.425954818726,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_29",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:54.053186"
+        },
+        {
+          "task_id": 62,
+          "status_code": 200,
+          "duration_ms": 2106.318950653076,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_62",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:54.361734"
+        },
+        {
+          "task_id": 67,
+          "status_code": 200,
+          "duration_ms": 1701.138973236084,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_67",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:54.362061"
+        },
+        {
+          "task_id": 64,
+          "status_code": 200,
+          "duration_ms": 2001.8689632415771,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_64",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:54.411142"
+        },
+        {
+          "task_id": 65,
+          "status_code": 200,
+          "duration_ms": 1924.8571395874023,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_65",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:54.462142"
+        },
+        {
+          "task_id": 53,
+          "status_code": 200,
+          "duration_ms": 3306.4072132110596,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_53",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:54.690871"
+        },
+        {
+          "task_id": 57,
+          "status_code": 200,
+          "duration_ms": 3231.7140102386475,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_57",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:54.921928"
+        },
+        {
+          "task_id": 68,
+          "status_code": 200,
+          "duration_ms": 1925.6160259246826,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_68",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:54.923844"
+        },
+        {
+          "task_id": 69,
+          "status_code": 200,
+          "duration_ms": 2035.5618000030518,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_69",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:55.254688"
+        },
+        {
+          "task_id": 73,
+          "status_code": 200,
+          "duration_ms": 1602.5619506835938,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_73",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:55.386790"
+        },
+        {
+          "task_id": 70,
+          "status_code": 200,
+          "duration_ms": 2092.4880504608154,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_70",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:55.400037"
+        },
+        {
+          "task_id": 74,
+          "status_code": 200,
+          "duration_ms": 1730.7970523834229,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_74",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:55.527398"
+        },
+        {
+          "task_id": 76,
+          "status_code": 200,
+          "duration_ms": 1669.0070629119873,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_76",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:55.614789"
+        },
+        {
+          "task_id": 77,
+          "status_code": 200,
+          "duration_ms": 1725.9457111358643,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_77",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:55.687313"
+        },
+        {
+          "task_id": 75,
+          "status_code": 200,
+          "duration_ms": 1908.9100360870361,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_75",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:55.814456"
+        },
+        {
+          "task_id": 79,
+          "status_code": 200,
+          "duration_ms": 1572.5321769714355,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_79",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:55.934682"
+        },
+        {
+          "task_id": 78,
+          "status_code": 200,
+          "duration_ms": 1917.6058769226074,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_78",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:55.970971"
+        },
+        {
+          "task_id": 66,
+          "status_code": 200,
+          "duration_ms": 3475.6460189819336,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_66",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:56.055149"
+        },
+        {
+          "task_id": 82,
+          "status_code": 200,
+          "duration_ms": 1604.3848991394043,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_82",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:56.066620"
+        },
+        {
+          "task_id": 81,
+          "status_code": 200,
+          "duration_ms": 1683.4931373596191,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_81",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:56.094717"
+        },
+        {
+          "task_id": 71,
+          "status_code": 200,
+          "duration_ms": 2581.367015838623,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_71",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:56.278967"
+        },
+        {
+          "task_id": 85,
+          "status_code": 200,
+          "duration_ms": 1648.7131118774414,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_85",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:56.572729"
+        },
+        {
+          "task_id": 84,
+          "status_code": 200,
+          "duration_ms": 1964.3452167510986,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_84",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:56.886413"
+        },
+        {
+          "task_id": 86,
+          "status_code": 200,
+          "duration_ms": 1647.7129459381104,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_86",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:56.902616"
+        },
+        {
+          "task_id": 87,
+          "status_code": 200,
+          "duration_ms": 1585.5028629302979,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_87",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:56.972541"
+        },
+        {
+          "task_id": 88,
+          "status_code": 200,
+          "duration_ms": 1589.1849994659424,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_88",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:56.989359"
+        },
+        {
+          "task_id": 89,
+          "status_code": 200,
+          "duration_ms": 1610.5380058288574,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_89",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:57.138142"
+        },
+        {
+          "task_id": 92,
+          "status_code": 200,
+          "duration_ms": 1619.22287940979,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_92",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:57.433895"
+        },
+        {
+          "task_id": 83,
+          "status_code": 200,
+          "duration_ms": 2773.455858230591,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_83",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:57.464496"
+        },
+        {
+          "task_id": 90,
+          "status_code": 200,
+          "duration_ms": 1889.747142791748,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_90",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:57.504745"
+        },
+        {
+          "task_id": 94,
+          "status_code": 200,
+          "duration_ms": 1545.374870300293,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_94",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:57.516477"
+        },
+        {
+          "task_id": 95,
+          "status_code": 200,
+          "duration_ms": 1550.7910251617432,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_95",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:57.606168"
+        },
+        {
+          "task_id": 97,
+          "status_code": 200,
+          "duration_ms": 1596.560001373291,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_97",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:57.691407"
+        },
+        {
+          "task_id": 93,
+          "status_code": 200,
+          "duration_ms": 1883.3930492401123,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_93",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:57.818301"
+        },
+        {
+          "task_id": 80,
+          "status_code": 200,
+          "duration_ms": 3484.3649864196777,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_80",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:57.846637"
+        },
+        {
+          "task_id": 98,
+          "status_code": 200,
+          "duration_ms": 1594.8030948638916,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_98",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:57.873996"
+        },
+        {
+          "task_id": 96,
+          "status_code": 200,
+          "duration_ms": 1879.8630237579346,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_96",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:57.946628"
+        },
+        {
+          "task_id": 99,
+          "status_code": 200,
+          "duration_ms": 1582.779884338379,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_99",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:58.155722"
+        },
+        {
+          "task_id": 102,
+          "status_code": 200,
+          "duration_ms": 1626.3620853424072,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_102",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:58.599074"
+        },
+        {
+          "task_id": 101,
+          "status_code": 200,
+          "duration_ms": 1854.010820388794,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_101",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:58.756814"
+        },
+        {
+          "task_id": 100,
+          "status_code": 200,
+          "duration_ms": 1933.8319301605225,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_100",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:58.820455"
+        },
+        {
+          "task_id": 104,
+          "status_code": 200,
+          "duration_ms": 1697.227954864502,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_104",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:58.835500"
+        },
+        {
+          "task_id": 107,
+          "status_code": 200,
+          "duration_ms": 1628.6258697509766,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_107",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:59.133503"
+        },
+        {
+          "task_id": 108,
+          "status_code": 200,
+          "duration_ms": 1635.7910633087158,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_108",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:59.152390"
+        },
+        {
+          "task_id": 110,
+          "status_code": 200,
+          "duration_ms": 1605.299949645996,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_110",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:59.296924"
+        },
+        {
+          "task_id": 111,
+          "status_code": 200,
+          "duration_ms": 1529.4520854949951,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_111",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:59.347965"
+        },
+        {
+          "task_id": 103,
+          "status_code": 200,
+          "duration_ms": 2366.12606048584,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_103",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:59.355600"
+        },
+        {
+          "task_id": 112,
+          "status_code": 200,
+          "duration_ms": 1549.2520332336426,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_112",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:59.396031"
+        },
+        {
+          "task_id": 114,
+          "status_code": 200,
+          "duration_ms": 1573.6048221588135,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_114",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:23:59.520413"
+        },
+        {
+          "task_id": 105,
+          "status_code": 200,
+          "duration_ms": 2575.1709938049316,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_105",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:00.009297"
+        },
+        {
+          "task_id": 106,
+          "status_code": 200,
+          "duration_ms": 2556.893825531006,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_106",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:00.021533"
+        },
+        {
+          "task_id": 72,
+          "status_code": 200,
+          "duration_ms": 6495.154857635498,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_72",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:00.229798"
+        },
+        {
+          "task_id": 115,
+          "status_code": 200,
+          "duration_ms": 2187.1209144592285,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_115",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:00.343054"
+        },
+        {
+          "task_id": 109,
+          "status_code": 200,
+          "duration_ms": 2773.9779949188232,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_109",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:00.380341"
+        },
+        {
+          "task_id": 117,
+          "status_code": 200,
+          "duration_ms": 1900.5792140960693,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_117",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:00.657597"
+        },
+        {
+          "task_id": 119,
+          "status_code": 200,
+          "duration_ms": 1965.5828475952148,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_119",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:00.801226"
+        },
+        {
+          "task_id": 122,
+          "status_code": 200,
+          "duration_ms": 1584.1262340545654,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_122",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:00.881131"
+        },
+        {
+          "task_id": 121,
+          "status_code": 200,
+          "duration_ms": 1729.3119430541992,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_121",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:00.881805"
+        },
+        {
+          "task_id": 123,
+          "status_code": 200,
+          "duration_ms": 1553.797721862793,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_123",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:00.901856"
+        },
+        {
+          "task_id": 113,
+          "status_code": 200,
+          "duration_ms": 3077.3589611053467,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_113",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:00.951479"
+        },
+        {
+          "task_id": 124,
+          "status_code": 200,
+          "duration_ms": 1977.039098739624,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_124",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:01.332731"
+        },
+        {
+          "task_id": 91,
+          "status_code": 200,
+          "duration_ms": 5657.483100891113,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_91",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:01.345022"
+        },
+        {
+          "task_id": 120,
+          "status_code": 200,
+          "duration_ms": 2215.9366607666016,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_120",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:01.349609"
+        },
+        {
+          "task_id": 126,
+          "status_code": 200,
+          "duration_ms": 1890.6359672546387,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_126",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:01.411274"
+        },
+        {
+          "task_id": 125,
+          "status_code": 200,
+          "duration_ms": 2031.768798828125,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_125",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:01.427906"
+        },
+        {
+          "task_id": 22,
+          "status_code": 200,
+          "duration_ms": 13742.377042770386,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_22",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:01.441623"
+        },
+        {
+          "task_id": 128,
+          "status_code": 200,
+          "duration_ms": 1559.5641136169434,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_128",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:01.581281"
+        },
+        {
+          "task_id": 132,
+          "status_code": 200,
+          "duration_ms": 1640.9008502960205,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_132",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:02.298686"
+        },
+        {
+          "task_id": 135,
+          "status_code": 200,
+          "duration_ms": 1557.8160285949707,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_135",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:02.439794"
+        },
+        {
+          "task_id": 137,
+          "status_code": 200,
+          "duration_ms": 1553.8959503173828,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_137",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:02.505519"
+        },
+        {
+          "task_id": 133,
+          "status_code": 200,
+          "duration_ms": 1714.250087738037,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_133",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:02.515550"
+        },
+        {
+          "task_id": 129,
+          "status_code": 200,
+          "duration_ms": 2296.067714691162,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_129",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:02.525952"
+        },
+        {
+          "task_id": 134,
+          "status_code": 200,
+          "duration_ms": 1872.8129863739014,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_134",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:02.754112"
+        },
+        {
+          "task_id": 136,
+          "status_code": 200,
+          "duration_ms": 1886.8889808654785,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_136",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:02.788828"
+        },
+        {
+          "task_id": 131,
+          "status_code": 200,
+          "duration_ms": 2534.74497795105,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_131",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:02.915748"
+        },
+        {
+          "task_id": 143,
+          "status_code": 200,
+          "duration_ms": 1512.5226974487305,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_143",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:02.954262"
+        },
+        {
+          "task_id": 142,
+          "status_code": 200,
+          "duration_ms": 1547.1901893615723,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_142",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:02.975221"
+        },
+        {
+          "task_id": 138,
+          "status_code": 200,
+          "duration_ms": 1667.097806930542,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_138",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:03.000013"
+        },
+        {
+          "task_id": 140,
+          "status_code": 200,
+          "duration_ms": 1844.4790840148926,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_140",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:03.194145"
+        },
+        {
+          "task_id": 139,
+          "status_code": 200,
+          "duration_ms": 2027.184009552002,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_139",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:03.372292"
+        },
+        {
+          "task_id": 127,
+          "status_code": 200,
+          "duration_ms": 3460.808038711548,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_127",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:03.470244"
+        },
+        {
+          "task_id": 118,
+          "status_code": 200,
+          "duration_ms": 4819.920063018799,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_118",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:03.640669"
+        },
+        {
+          "task_id": 130,
+          "status_code": 200,
+          "duration_ms": 3561.5782737731934,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_130",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:03.904705"
+        },
+        {
+          "task_id": 146,
+          "status_code": 200,
+          "duration_ms": 1503.7357807159424,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_146",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:03.943757"
+        },
+        {
+          "task_id": 147,
+          "status_code": 200,
+          "duration_ms": 1492.448091506958,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_147",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:03.998475"
+        },
+        {
+          "task_id": 149,
+          "status_code": 200,
+          "duration_ms": 1555.6659698486328,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_149",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:04.081726"
+        },
+        {
+          "task_id": 150,
+          "status_code": 200,
+          "duration_ms": 1542.9749488830566,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_150",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:04.297262"
+        },
+        {
+          "task_id": 151,
+          "status_code": 200,
+          "duration_ms": 1598.6509323120117,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_151",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:04.387653"
+        },
+        {
+          "task_id": 153,
+          "status_code": 200,
+          "duration_ms": 1593.506097793579,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_153",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:04.547922"
+        },
+        {
+          "task_id": 154,
+          "status_code": 200,
+          "duration_ms": 1649.8160362243652,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_154",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:04.625184"
+        },
+        {
+          "task_id": 155,
+          "status_code": 200,
+          "duration_ms": 1830.9249877929688,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_155",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:04.831048"
+        },
+        {
+          "task_id": 158,
+          "status_code": 200,
+          "duration_ms": 1485.4426383972168,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_158",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:04.955887"
+        },
+        {
+          "task_id": 141,
+          "status_code": 200,
+          "duration_ms": 3867.0718669891357,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_141",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:05.278492"
+        },
+        {
+          "task_id": 156,
+          "status_code": 200,
+          "duration_ms": 2192.615270614624,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_156",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:05.386833"
+        },
+        {
+          "task_id": 161,
+          "status_code": 200,
+          "duration_ms": 1611.8600368499756,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_161",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:05.555811"
+        },
+        {
+          "task_id": 163,
+          "status_code": 200,
+          "duration_ms": 1578.348159790039,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_163",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:05.660288"
+        },
+        {
+          "task_id": 159,
+          "status_code": 200,
+          "duration_ms": 2038.374900817871,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_159",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:05.679245"
+        },
+        {
+          "task_id": 160,
+          "status_code": 200,
+          "duration_ms": 1855.4749488830566,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_160",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:05.760472"
+        },
+        {
+          "task_id": 152,
+          "status_code": 200,
+          "duration_ms": 2915.306568145752,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_152",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:05.831252"
+        },
+        {
+          "task_id": 167,
+          "status_code": 200,
+          "duration_ms": 1614.5029067993164,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_167",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:06.240019"
+        },
+        {
+          "task_id": 166,
+          "status_code": 200,
+          "duration_ms": 1950.897216796875,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_166",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:06.498976"
+        },
+        {
+          "task_id": 165,
+          "status_code": 200,
+          "duration_ms": 2166.229009628296,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_165",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:06.554027"
+        },
+        {
+          "task_id": 168,
+          "status_code": 200,
+          "duration_ms": 1917.3948764801025,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_168",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:06.748653"
+        },
+        {
+          "task_id": 162,
+          "status_code": 200,
+          "duration_ms": 2880.157947540283,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_162",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:06.878832"
+        },
+        {
+          "task_id": 164,
+          "status_code": 200,
+          "duration_ms": 2635.845184326172,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_164",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:06.933271"
+        },
+        {
+          "task_id": 171,
+          "status_code": 200,
+          "duration_ms": 1579.2460441589355,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_171",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:06.966219"
+        },
+        {
+          "task_id": 157,
+          "status_code": 200,
+          "duration_ms": 3726.3898849487305,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_157",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:07.098876"
+        },
+        {
+          "task_id": 170,
+          "status_code": 200,
+          "duration_ms": 1873.2337951660156,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_170",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:07.151929"
+        },
+        {
+          "task_id": 173,
+          "status_code": 200,
+          "duration_ms": 1549.5719909667969,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_173",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:07.210023"
+        },
+        {
+          "task_id": 174,
+          "status_code": 200,
+          "duration_ms": 1708.8119983673096,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_174",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:07.388185"
+        },
+        {
+          "task_id": 176,
+          "status_code": 200,
+          "duration_ms": 1568.9539909362793,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_176",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:07.400301"
+        },
+        {
+          "task_id": 172,
+          "status_code": 200,
+          "duration_ms": 1868.1769371032715,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_172",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:07.424154"
+        },
+        {
+          "task_id": 116,
+          "status_code": 200,
+          "duration_ms": 9008.338928222656,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_116",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:07.607629"
+        },
+        {
+          "task_id": 169,
+          "status_code": 200,
+          "duration_ms": 2799.7398376464844,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_169",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:07.755917"
+        },
+        {
+          "task_id": 179,
+          "status_code": 200,
+          "duration_ms": 1494.8999881744385,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_179",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:08.049116"
+        },
+        {
+          "task_id": 178,
+          "status_code": 200,
+          "duration_ms": 1852.1249294281006,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_178",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:08.351224"
+        },
+        {
+          "task_id": 181,
+          "status_code": 200,
+          "duration_ms": 1505.967140197754,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_181",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:08.384981"
+        },
+        {
+          "task_id": 177,
+          "status_code": 200,
+          "duration_ms": 2188.812017440796,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_177",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:08.429031"
+        },
+        {
+          "task_id": 183,
+          "status_code": 200,
+          "duration_ms": 1542.2437191009521,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_183",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:08.508654"
+        },
+        {
+          "task_id": 182,
+          "status_code": 200,
+          "duration_ms": 1624.1018772125244,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_182",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:08.557559"
+        },
+        {
+          "task_id": 185,
+          "status_code": 200,
+          "duration_ms": 1502.0620822906494,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_185",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:08.654101"
+        },
+        {
+          "task_id": 184,
+          "status_code": 200,
+          "duration_ms": 1620.3408241271973,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_184",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:08.719316"
+        },
+        {
+          "task_id": 186,
+          "status_code": 200,
+          "duration_ms": 1545.3970432281494,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_186",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:08.755556"
+        },
+        {
+          "task_id": 175,
+          "status_code": 200,
+          "duration_ms": 3133.9800357818604,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_175",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:08.894668"
+        },
+        {
+          "task_id": 188,
+          "status_code": 200,
+          "duration_ms": 1521.4619636535645,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_188",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:08.921879"
+        },
+        {
+          "task_id": 187,
+          "status_code": 200,
+          "duration_ms": 1611.7429733276367,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_187",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:09.000052"
+        },
+        {
+          "task_id": 180,
+          "status_code": 200,
+          "duration_ms": 2294.074296951294,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_180",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:09.042943"
+        },
+        {
+          "task_id": 190,
+          "status_code": 200,
+          "duration_ms": 1578.8469314575195,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_190",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:09.186630"
+        },
+        {
+          "task_id": 189,
+          "status_code": 200,
+          "duration_ms": 1913.4478569030762,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_189",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:09.337704"
+        },
+        {
+          "task_id": 191,
+          "status_code": 200,
+          "duration_ms": 1985.2678775787354,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_191",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:09.741399"
+        },
+        {
+          "task_id": 194,
+          "status_code": 200,
+          "duration_ms": 1596.8477725982666,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_194",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:09.981965"
+        },
+        {
+          "task_id": 196,
+          "status_code": 200,
+          "duration_ms": 1608.9811325073242,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_196",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:10.117855"
+        },
+        {
+          "task_id": 193,
+          "status_code": 200,
+          "duration_ms": 1788.0058288574219,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_193",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:10.139377"
+        },
+        {
+          "task_id": 200,
+          "status_code": 200,
+          "duration_ms": 1557.6789379119873,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_200",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:10.313371"
+        },
+        {
+          "task_id": 148,
+          "status_code": 200,
+          "duration_ms": 7813.899040222168,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_148",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:10.329604"
+        },
+        {
+          "task_id": 197,
+          "status_code": 200,
+          "duration_ms": 1866.2450313568115,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_197",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:10.423944"
+        },
+        {
+          "task_id": 198,
+          "status_code": 200,
+          "duration_ms": 1877.5763511657715,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_198",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:10.531867"
+        },
+        {
+          "task_id": 195,
+          "status_code": 200,
+          "duration_ms": 2112.027883529663,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_195",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:10.541228"
+        },
+        {
+          "task_id": 199,
+          "status_code": 200,
+          "duration_ms": 2726.0780334472656,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_199",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:11.445582"
+        },
+        {
+          "task_id": 192,
+          "status_code": 200,
+          "duration_ms": 3787.229061126709,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_192",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:11.836564"
+        },
+        {
+          "task_id": 39,
+          "status_code": 200,
+          "duration_ms": 23493.71099472046,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_39",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:12.539604"
+        },
+        {
+          "task_id": 144,
+          "status_code": 200,
+          "duration_ms": 11212.479829788208,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_144",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:12.793936"
+        },
+        {
+          "task_id": 145,
+          "status_code": 200,
+          "duration_ms": 12062.920093536377,
+          "success": true,
+          "response": "Task added: test_high_20251119_192259_145",
+          "attempt": 1,
+          "timestamp": "2025-11-19T19:24:14.361903"
+        }
+      ],
+      "system_metrics": {
+        "cpu_before": 14.3,
+        "cpu_after": 0.0,
+        "memory_before": 74.0,
+        "memory_after": 74.8
+      },
+      "timestamp": "2025-11-19T19:24:14.468211"
+    }
+  ]
+}
