@@ -42,18 +42,8 @@ dist_sys_sql/
 
 ## Installation
 
-1. Install dependencies:
 ```bash
 pip install -r requirements.txt
-```
-
-2. Configure connection string in `local.settings.json`:
-```json
-{
-  "Values": {
-    "SqlConnectionString": "Server=tcp:<server>,<port>;Initial Catalog=<database>;User ID=<user>;Password=<password>;"
-  }
-}
 ```
 
 ## Running Locally
