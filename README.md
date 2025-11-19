@@ -20,7 +20,6 @@ dist_sys_sql/
 ├── host.json                # Azure Functions host configuration
 └── local.settings.json      # Local environment settings (not committed)
 ```
-For safety reasons, the `local.settings.json` file is not committed to the repository.
 
 ## Triggers
 
